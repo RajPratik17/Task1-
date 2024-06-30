@@ -1,6 +1,75 @@
-body{
-  padding: 25px;
+body {
+    font-family: Arial, sans-serif; /* Changed font-family for better readability */
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Added a background color for the body */
 }
-.title {
-	color: #5C6AC4;
+
+header {
+    background-color: #e6ceb8;
+    color: #910000;
+    padding: 1em;
+    text-align: center;
+    border-bottom: 2px solid #910000; /* Added a border to the header */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centered the navigation links */
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav li:last-child {
+    margin-right: 0; /* Removed margin from the last nav item */
+}
+
+nav a {
+    color: #030000;
+    text-decoration: none;
+    font-weight: bold; /* Made the nav links bold */
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+section {
+    background-color: #cddff7;
+    padding: 2em;
+    border: 1px solid #110000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2em; /* Added margin between sections */
+    width: 80%; /* Set a width for sections */
+    max-width: 800px; /* Set a maximum width */
+}
+
+h1 {
+    color: #040541;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #040541; /* Set a color for h2 elements */
+    font-size: 28px; /* Set a font size for h2 elements */
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #e6ceb8;
+    color: #000000;
+    padding: 1em;
+    text-align: center;
+    clear: both;
+    border-top: 2px solid #910000; /* Added a border to the footer */
+    margin-top: 2em; /* Added margin at the top of the footer */
 }
